@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Qoute</string>
+    <string name="login_to_continue">login to continue</string>
+    <string name="welcome">WELCOME ,</string>
+    <string name="login">LOGIN</string>
+    <string name="password">password</string>
+    <string name="already_have_account">already have account ?</string>
+    <string name="logn">LOGIN</string>
+    <string name="create_new_account">CREATE NEW ACCOUNT</string>
+    <string name="please_provide_the_all_required_information">please provide the all required information</string>
+    <string name="enter_your_name">enter your name</string>
+    <string name="user_name">USER NAME</string>
+    <string name="log_out">log out</string>
+    <string name="choose_activity">CHOOSE ACTIVITY</string>
+    <string name="enter_email_address">enter email address</string>
+    <string name="textview">TextView</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="news">NEWS</string>
+    <string name="qoutes">QOUTES</string>
+</resources>

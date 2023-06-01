@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/anime"
+        android:name="com.example.qoute.fragment.Wallpaper"
+        android:label="fragment_anime"
+        tools:layout="@layout/fragment_wallpaper" >
+        <action
+            android:id="@+id/action_anime_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/normalQoutes"
+        android:name="com.example.qoute.fragment.NormalQoutes"
+        android:label="fragment_normal_qoutes"
+        tools:layout="@layout/fragment_normal_qoutes" >
+        <action
+            android:id="@+id/action_normalQoutes_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/news"
+        android:name="com.example.qoute.fragment.News"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_news_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.qoute.fragment.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_normalQoutes"
+            app:destination="@id/normalQoutes" />
+        <action
+            android:id="@+id/action_home2_to_news"
+            app:destination="@id/news" />
+        <action
+            android:id="@+id/action_home2_to_anime"
+            app:destination="@id/anime" />
+    </fragment>
+</navigation>
